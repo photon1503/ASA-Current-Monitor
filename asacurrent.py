@@ -44,8 +44,8 @@ def update_plot():
     plt.xticks(rotation=45)
     
     if timestamps:
-        plt.plot(timestamps, current_de, label="Axis 1 (DE)", color='b')
-        plt.plot(timestamps, current_ra, label="Axis 2 (RA)", color='r')
+        plt.plot(timestamps, current_de, label="Axis 1 (RA)", color='b')
+        plt.plot(timestamps, current_ra, label="Axis 2 (DE)", color='r')
     
     plt.legend()
     plt.pause(0.1)
